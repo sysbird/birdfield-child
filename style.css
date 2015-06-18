@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*
+Theme Name: BirdFILELD Child
+Template:   birdfield
+Version:    0.1.0
+*/
+
+@import url("../birdfield/style.css");
+
+.home #content #blog ul.article .hentry .entry-header p {
+  margin: 0;
+}
+
+#content .container {
+  padding-bottom: 0;
+}
+
+#contribution {
+  background: #F5F5F5;
+  padding: 1.6em 0;
+}
+
+#contribution .more {
+  text-align: right;
+  padding: 0.8em 0;
+}
+
+#contribution .more a {
+  background-color: #AAA;
+  color: #FFF;
+  padding: 0.8em;
+}
+
+#contribution .more a:before {
+  content: "\f105";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  padding-right: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-right: 5px; }
+
